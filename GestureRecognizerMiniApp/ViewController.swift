@@ -52,6 +52,7 @@ class ViewController: UIViewController , UINavigationControllerDelegate , UIImag
         }
         else{
             imagePicker.sourceType = UIImagePickerController.SourceType.photoLibrary
+            present(imagePicker, animated: true, completion: nil)
         }
     }
     
